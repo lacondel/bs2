@@ -13,3 +13,33 @@
     font-style: normal;
     font-display: swap;
 }
+
+:root {
+    --color1: #eebb12;
+    --color2: #fff;
+    --bg1: #070707;
+    --bg2: #111;
+}
+
+* {
+    color: var(--color2);
+}
+
+section {
+    padding: 100px 0;
+    background-color: var(--bg1);
+}
+
+header {
+    padding: 145px;
+    background: url(/img/pattern.png) var(--bg2);
+}
+
+.btn-itd {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    font-weight: 500;
+    background-color: var(--color1);
+}
