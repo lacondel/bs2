@@ -25,14 +25,37 @@
     color: var(--color2);
 }
 
-section {
-    padding: 100px 0;
-    background-color: var(--bg1);
+h1, h3, h5, p, ul, li {
+    color: var(--color2);
+}
+
+p {
+    font-size: 18px;
 }
 
 header {
     padding: 145px;
     background: url(/img/pattern.png) var(--bg2);
+}
+
+section {
+    padding: 100px 0;
+    background-color: var(--bg1);
+}
+
+footer {
+    padding: 50px 0;
+    background-color: var(--bg1);
+}
+
+.about,
+.program,
+.super {
+    background-color: var(--bg2);
+}
+
+.author {
+    padding-bottom: 0;
 }
 
 .btn-itd {
@@ -42,4 +65,115 @@ header {
     padding: 8px 30px;
     font-weight: 500;
     background-color: var(--color1);
+}
+
+.itd-circle {
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itd-circle i {
+    font-size: 25px;
+    color: var(--color1);
+}
+
+.line {
+    margin: 15px auto;
+    width: 100px;
+    background-color: var(--color1);
+    height: 3px;
+
+}
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.forwhom h5 {
+    padding: 30px;
+    height: 100%;
+    background-color: var(--bg2);
+}
+
+.btn-itd {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    color: var(--bs-black);
+    font-weight: 500;
+    background-color: var(--color1);
+}
+.btn-itd:hover {
+    color: var(--bs-black);
+    background-color: var(--color1);
+    opacity: 0.8;
+}
+
+.accordion i {
+    color: var(--bs-black);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--color1);
+    font-weight: bold;
+    color: var(--bs-black);
+}
+
+span {
+    text-decoration: underline;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.mail-link {
+    text-decoration: none;
+    color: var(--color1);
+    padding-bottom: 1px;
+    border-bottom: 1px solid var(--color1);
+}
+
+.mail-link:hover {
+    opacity: 0.8;
+}
+
+
+
+
+.h100 {
+    height: 100%;
+}
+
+/* Цвета */
+.color1 {
+    color: var(--color1);
+}
+
+.bg1 {
+    background-color: var(--bg1);
+}
+
+.bg2 {
+    background-color: var(--bg2);
 }
